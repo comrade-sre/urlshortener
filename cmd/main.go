@@ -9,7 +9,7 @@ import (
 func main() {
 	urlShortener := &http.Server {
 		Addr:	":8080",
-		Handler: mainHandler,
+//		Handler: mainHandler,
 		ReadTimeout: 10 * time.Second,
 		WriteTimeout: 10 * time.Second,
 		MaxHeaderBytes: 1 << 20,
